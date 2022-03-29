@@ -14,12 +14,12 @@
 
           <el-submenu index="2" class="item">
             <template slot="title">
-              <i class="el-icon-document-remove"></i>
+              <i class="el-icon-message"></i>
               <span>文章管理</span>
             </template>
             <el-menu-item-group>
-              <el-menu-item index="/">文章列表</el-menu-item>
-              <el-menu-item index="2-1">多层路由实例</el-menu-item>
+              <el-menu-item index="/"><i class="el-icon-help"></i>文章列表</el-menu-item>
+              <el-menu-item index="2-1"><i class="el-icon-help"></i>多层路由实例</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
 
